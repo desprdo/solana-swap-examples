@@ -6,7 +6,7 @@ This example demonstrates how to use the Solana Swap API with Python.
 
 1. Clone this repository:
    ```
-   git clone https://github.com/solxtence/solana-swap-examples.git
+   git clone https://github.com/desprdo/solana-swap-examples.git
    cd solana-swap-examples
    cd python
    ```
