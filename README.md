@@ -1,27 +1,39 @@
-# SolXtence Swap API Examples 🚀
+# Solana Token Swap Examples 🚀
 
-This repository provides a collection of code samples demonstrating how to use the SolXtence Swap API across various programming languages. 🛠️
+This repo contains code samples for performing token swaps on the Solana blockchain using the SolXtence API. I created these examples to simplify the process of integrating token swaps into Solana-based projects.
 
-## About SolXtence Swap API 🔄
+## What This Does 🔄
 
-The **SolXtence Swap API** offers an easy way to perform token swaps on the Solana blockchain. Our API handles the complex parts of preparing swap transactions, allowing you to focus on integrating this functionality into your projects. Access the API at [solxtence.com/swap](https://solxtence.com/swap). 🌐
+These examples demonstrate how to:
 
-With the SolXtence Swap API, you can seamlessly swap tokens across a variety of platforms and automated market makers (AMMs), including **Moonshot**, **Pump.fun**, **Raydium**, **Jupiter**, and all associated AMMs. 🌈
+1. Prepare swap parameters
+2. Fetch a serialized swap transaction from the SolXtence API
+3. Deserialize and sign the transaction
+4. Send the transaction to the Solana network
 
-## Examples 📚
+The SolXtence API handles the complexities of routing swaps through various AMMs (Automated Market Makers) on Solana, including Moonshot, Raydium, and Jupiter.
 
-This repository contains example implementations in different programming languages. Currently, we have examples for:
+## Available Examples 📚
 
-- **JavaScript (Node.js)**
-- **Python**
+Currently, this repo includes examples in:
 
-### What You'll Learn 📘
+- JavaScript (Node.js)
+- Python
 
-Each example demonstrates how to:
+Each example is contained in its own directory with a dedicated README for setup and usage instructions.
 
-1. Call the `/swap` endpoint to get a serialized transaction.
-2. Deserialize the transaction.
-3. Sign the transaction.
-4. Send the transaction to the Solana network.
+## Getting Started 📘
 
-Stay tuned for more examples and updates! ✨
+1. Clone this repository
+2. Choose the example in your preferred language
+3. Follow the README in that example's directory for setup and usage instructions
+
+## Notes
+
+- These examples are for educational purposes. Always handle private keys securely in production environments.
+- The API is accessed at `https://swap.solxtence.com/swap`. Check their documentation for the most up-to-date endpoint information.
+- You'll need a Solana wallet and some SOL for transaction fees to run these examples.
+
+## Contributing
+
+Feel free to add examples in other languages or improve the existing ones. Pull requests are welcome! ✨
