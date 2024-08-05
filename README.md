@@ -10,10 +10,10 @@ With the SolXtence Swap API, you can seamlessly swap tokens across a variety of 
 
 ## Examples 📚
 
-This repository contains example implementations in different programming languages, designed to help you get started with the SolXtence Swap API. Currently, we have examples for:
+This repository contains example implementations in different programming languages. Currently, we have examples for:
 
 - **JavaScript (Node.js)**
-- **Python (Soon...)**
+- **Python**
 
 ### What You'll Learn 📘
 
