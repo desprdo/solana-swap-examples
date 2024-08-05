@@ -1,0 +1,33 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Solana token swap example Javascript",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-rz/solana-swap-examples.git"
+  },
+  "type": "module",
+  "keywords": [
+    "solana",
+    "solana-swap",
+    "swap",
+    "moonshot",
+    "pumpfun",
+    "raydium"
+  ],
+  "author": "SolXtence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir-rz/solana-swap-examples/issues"
+  },
+  "homepage": "https://github.com/amir-rz/solana-swap-examples#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^1.7.3",
+    "bs58": "^6.0.0"
+  }
+}
