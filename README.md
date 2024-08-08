@@ -2,7 +2,7 @@
 
 Code samples for performing token swaps on Solana (Basically buying and selling). 
 
-SolXtence Docs: https://docs.solxtence.com
+Swap API Docs: https://docs.solxtence.com/swap
 Swap API Status: https://status.solxtence.com
 
 ## Available Examples
