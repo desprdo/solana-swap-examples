@@ -82,7 +82,7 @@ async function performSwap() {
 performSwap();
 ```
 
-## What This Does
+## What the Example Does?
 
 - Prepares swap parameters
 - Fetches serialized swap transaction from SolXtence API
