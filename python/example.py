@@ -16,7 +16,7 @@ async def perform_swap():
         # Swap parameters
         params = {
             "from": "So11111111111111111111111111111111111111112",  # SOL
-            "to": "HXXq3B3w6VVh8jDjuexMfG5c5GqjsHwq2jaPv35LwzM3",  # USDC
+            "to": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",  # USDC
             "amount": 0.007,  # From amount
             "slip": 10,  # Slippage
             "payer": str(keypair.pubkey()),
